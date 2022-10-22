@@ -39,6 +39,9 @@ class AllMatrixes {
             finishFlags: [
                 //{x:17,y:15},{x:18,y:15},{x:19,y:15},{x:20,y:15},
                 //{x:20,y:16},{x:20,y:17},{x:20,y:18},
+            ],
+            signBoards: [
+                {x: 18*29, y: 5*29, sign: "Loading Ramp"}
             ]
 
         };
@@ -80,15 +83,14 @@ class AllMatrixes {
                 { x: 29, y: 17, toArea: "area3", appearingCoords: { x: 5, y: 17 } },
                 { x: 18, y: 16, toArea: "area3", appearingCoords: { x: 15, y: 13 } },
 
-                
-                
-
             ],
             finishFlags: [
                 // {x:29,y:15},{x:30,y:15},{x:31,y:15},{x:32,y:15}
             ],
             signBoards: [
-                {x: 50, y: 50, sign: "Lower Engine"}
+                {x: 6*29, y: 9*29, sign: "Medical"},
+                {x: 25*29, y: 11*29, sign: "Oxygen"}
+
             ]
         };
 
@@ -133,6 +135,12 @@ class AllMatrixes {
             finishFlags: [
                 {x:25,y:15},{x:26,y:15},{x:27,y:15},
                 {x:25,y:16},{x:25,y:17},{x:25,y:18}
+            ],
+            signBoards: [
+                {x: 3*29, y: 3*29, sign: "Reactor"},
+                {x: 21*29, y: 6*29, sign: "Archives"},
+                {x: 24*29, y: 11*29, sign: "Command Deck"}
+
             ]
         };
 
@@ -180,6 +188,12 @@ class AllMatrixes {
             ],
             finishFlags: [
                 // {x:29,y:15},{x:30,y:15},{x:31,y:15},{x:32,y:15}
+            ],
+            signBoards: [
+                {x: 2*29, y: 16*29, sign: "Laboratory"},
+                {x: 21*29, y: 18*29, sign: "Weapons"},
+                {x: 26*29, y: 10*29, sign: "Security"}
+
             ]
         };
 
@@ -217,11 +231,13 @@ class AllMatrixes {
                 { x: 22, y: 2, toArea: "area2", appearingCoords: { x: 12, y: 4 } },
                 { x: 4, y: 9, toArea: "area4", appearingCoords: { x: 23, y: 13 } },
                 
-                
-
             ],
             finishFlags: [
                 // {x:29,y:15},{x:30,y:15},{x:31,y:15},{x:32,y:15}
+            ],
+            signBoards: [
+                {x: 15*29, y: 14*29, sign: "Reactor"}
+
             ]
         };
 
